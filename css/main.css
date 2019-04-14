@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+	background: #cfd8dc;
+}
+
 .flexcontainer {
   display: flex;
   align-items: center;
@@ -12,8 +18,9 @@
   border 1px solid grey;
   box-shadow: 2px 2px 2px lightgrey;
   cursor: pointer;
-  font-size: 1.2em;
-  background: pink;
+  font-size: 33px;
+	font-family: 'Lobster', cursive;
+  background: #FF8800;
 }
 
 #button:focus {
